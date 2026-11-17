@@ -100,17 +100,10 @@ ul li::before {
   box-sizing: border-box;
 }
 
-.nav-logo-link {
+.nav-brand {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  text-decoration: none;
-  border-bottom: 0;
-}
-
-.nav-logo-link:hover {
-  text-decoration: none;
-  border-bottom: 0;
 }
 
 .nav-logo-img {
@@ -158,19 +151,6 @@ nav a {
 nav a:hover {
   color: #9a9bf5;
   border-bottom: 0px solid #b882e8; /* Optional: underline effect */
-}
-
-nav .nav-logo-link:hover,
-nav .nav-logo-link:focus-visible {
-  text-decoration: none !important;
-  border-bottom: 0 !important;
-  box-shadow: none !important;
-}
-
-nav .nav-logo-link:hover .nav-logo-name,
-nav .nav-logo-link:focus-visible .nav-logo-name {
-  color: #b882e8;
-  text-decoration: none;
 }
 
 /* animating banner*/
@@ -713,7 +693,7 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
     padding: 0 16px;
   }
 
-  .nav-logo-link {
+  .nav-brand {
     justify-content: center;
   }
 
