@@ -6,31 +6,18 @@ hide_nav: true
 hide_banner: true
 ---
 
-<nav class="top-nav">
-  <div class="nav-container">
-    <a href="https://gracesominlee.github.io" class="nav-logo-link">
-      <img src="{{ '/assets/img/butterfly1.PNG' | relative_url }}" alt="Home" class="nav-logo-img">
-      <span class="nav-logo-name">Grace Somin Lee</span>
-    </a>
-
-    <div class="nav-links">
-      <a href="{{ '/about/' | relative_url }}">About Me</a>
-      <a href="{{ '/projects/' | relative_url }}">Projects</a>
-      <a href="{{ '/beings/' | relative_url }}">Beings</a>
-    </div>
+<header class="interior-header">
+  <div>
+    <p class="interior-kicker">Grace Somin Lee</p>
+    <h1>About Me</h1>
   </div>
-</nav> 
-
-<!-- Clickable Banner -->
-<div style="text-align: center; margin-top: 10px;">
-  <a href="https://gracesominlee.github.io">
-    <img
-      src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=180&section=header&text=About%20Me&fontSize=35&fontColor=474747"
-      alt="About Me Banner"
-      style="max-width: 100%;"
-    />
+  <a href="{{ '/' | relative_url }}" class="home-link" aria-label="Return to the home page">
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      <path d="M7 23.5 24 8l17 15.5"></path>
+      <path d="M12 21v19h24V21M20 40V28h8v12"></path>
+    </svg>
   </a>
-</div>
+</header>
 
 <!-- Contact Bar -->
 <div class="contact-bar">
