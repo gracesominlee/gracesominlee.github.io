@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Me
-permalink: /about/
+permalink: /
 hide_nav: true
 hide_banner: true
 ---
@@ -11,12 +11,10 @@ hide_banner: true
     <p class="interior-kicker">Grace Somin Lee</p>
     <h1>About Me</h1>
   </div>
-  <a href="{{ '/' | relative_url }}" class="home-link" aria-label="Return to the home page">
-    <svg viewBox="0 0 48 48" aria-hidden="true">
-      <path d="M7 23.5 24 8l17 15.5"></path>
-      <path d="M12 21v19h24V21M20 40V28h8v12"></path>
-    </svg>
-  </a>
+  <nav class="home-section-links" aria-label="Explore the website">
+    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a href="{{ '/beings/' | relative_url }}">Beings</a>
+  </nav>
 </header>
 
 <!-- Contact Bar -->
