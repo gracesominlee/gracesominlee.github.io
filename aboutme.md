@@ -2,20 +2,7 @@
 layout: default
 title: About Me
 permalink: /
-hide_nav: true
-hide_banner: true
 ---
-
-<header class="interior-header">
-  <div>
-    <p class="interior-kicker">Grace Somin Lee</p>
-    <h1>About Me</h1>
-  </div>
-  <nav class="home-section-links" aria-label="Explore the website">
-    <a href="{{ '/projects/' | relative_url }}">Projects</a>
-    <a href="{{ '/beings/' | relative_url }}">Beings</a>
-  </nav>
-</header>
 
 <!-- Contact Bar -->
 <div class="contact-bar">

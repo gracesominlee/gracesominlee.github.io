@@ -240,15 +240,6 @@ nav a:hover {
   margin-right: auto;
 }
 
-.interior-kicker {
-  margin: 0;
-  color: #929092;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
-
 .home-link svg {
   display: block;
   width: 100%;
@@ -257,44 +248,6 @@ nav a:hover {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.8;
-}
-
-/* Minimal interior-page navigation */
-.interior-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 24px;
-  margin: 14px auto 48px;
-  padding-bottom: 22px;
-  border-bottom: 1px solid rgba(144, 144, 144, 0.22);
-}
-
-.interior-header h1 {
-  margin: 5px 0 0;
-  color: #555267;
-  font-size: clamp(30px, 5vw, 46px);
-  line-height: 1.15;
-}
-
-.home-section-links {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  padding-top: 12px;
-}
-
-.home-section-links a {
-  color: #7773bd;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-}
-
-.home-section-links a:hover,
-.home-section-links a:focus-visible {
-  color: #f5628d;
-  outline: none;
 }
 
 .home-link {
@@ -320,6 +273,15 @@ nav a:hover {
   color: #6e6fb7;
   outline: none;
   transform: translateY(-2px);
+}
+
+.nav-home-link {
+  width: 34px;
+  height: 34px;
+}
+
+.nav-home-link svg {
+  width: 18px;
 }
 
 /* project page*/
@@ -713,15 +675,5 @@ nav a:hover {
 
   .being-card {
     width: min(280px, calc(100% - 28px));
-  }
-}
-
-@media (max-width: 720px) {
-  .interior-header {
-    margin-bottom: 34px;
-  }
-
-  .home-section-links {
-    gap: 12px;
   }
 }
