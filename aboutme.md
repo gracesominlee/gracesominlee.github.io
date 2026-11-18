@@ -8,9 +8,9 @@ nav_key: about
 <article class="about-page">
   <h1>Hi there! I’m Grace, or 소민.</h1>
 
-  <p>I’m a master’s student at KAIST studying the relationship between technology and society. These days I have been pondering the social production and inculcation of technological inevitability, and how that has been impacting the way we imagine our own futures. Is our imaginative autonomy becoming obsolete? Or are there openings waiting to be discovered? </p>
+  <p>I’m a master’s student at KAIST studying the relationship between technology and society. Lately I’ve been pondering how technological inevitability is socially produced and inculcated, and what it does to the way we imagine our futures. Is our imaginative autonomy becoming obsolete, or are there openings waiting to be discovered? </p>
 
-  <p>My current work looks for those openings in the multiplicity of AI contestations. By “AI” I mean the larger sociotechnical system that enables its operation: data centers, energy infrastructures, public policy, and leadership. These contestations unfold at different levels, and I wish to highlight how individual agency shines through such processes, and more practically, how decision-making systems could better accommodate it.</p>
+  <p>My current work looks for those openings in the multiplicity of AI-related contestations, from data centers and energy infrastructures to public policy and leadership. I wish to highlight how individual agency shines through them, and how decision-making systems could better accommodate it.</p>
 
   <p>Before turning to this line of research, I worked in international development, focusing on technology-facilitated gender-based violence and data governance for femicide documentation. Seeing how data infrastructures shaped whose harms were counted is where my inquiries into larger sociotechnical systems began, and I continue to ask who gets a say in the futures these systems are generating.</p>
 
