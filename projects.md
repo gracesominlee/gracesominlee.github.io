@@ -61,16 +61,5 @@ nav_key: projects
       </div>
     </details>
 
-    <details class="project-entry">
-      <summary>
-        <span class="project-name">🔮 Futuring the Quasi-Human: Contested Imaginaries of AI-Human Boundaries Across Institutional and Vernacular Discourse</span>
-        <span class="project-toggle project-toggle--open">▷ expand</span>
-        <span class="project-toggle project-toggle--closed">▽ expanded</span>
-      </summary>
-      <div class="project-body">
-        <p>The boundaries between human and artificial intelligence are not fixed technical facts but are actively imagined through everyday language. While studies of sociotechnical imaginaries have often examined institutionally stabilized visions, such as national AI strategies and policy reports, everyday imaginaries constructed within social media discourse remain undertheorized as sites where AI-human boundaries are contested before they become institutionally stabilized.</p>
-        <p>Employing a mixed methodology that integrates structural topic modeling, comparative discourse analysis, and interpretive scenario building, the study systematically compares how institutional and vernacular groups make sense of AI’s seemingly immaterial quasi-human capacities, including reasoning, creativity, judgment, empathy, and moral responsibility.</p>
-      </div>
-    </details>
   </section>
 </article>
