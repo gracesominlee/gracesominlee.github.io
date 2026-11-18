@@ -139,13 +139,13 @@ summary {
 /* About */
 .about-page {
   max-width: 1360px;
-  font-size: clamp(17px, calc(2.35vw - 10px), 30px);
+  font-size: clamp(20px, calc(2.35vw - 7px), 33px);
   line-height: 1.45;
 }
 
 .about-page h1 {
   margin: 0 0 52px;
-  font-size: clamp(31px, calc(4vw - 13px), 53px);
+  font-size: clamp(26px, calc(4vw - 18px), 48px);
   font-weight: 400;
   line-height: 1.1;
 }
@@ -527,13 +527,13 @@ summary {
   }
 
   .about-page {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.42;
   }
 
   .about-page h1 {
     margin-bottom: 34px;
-    font-size: 26px;
+    font-size: 21px;
   }
 
   .about-page p {
