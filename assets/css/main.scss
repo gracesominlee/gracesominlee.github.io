@@ -57,7 +57,7 @@ summary {
   z-index: 100;
   top: 0;
   width: 100%;
-  height: 290px;
+  height: 230px;
   background: var(--page-bg);
 }
 
@@ -69,7 +69,7 @@ summary {
   height: 100%;
   margin: 0 auto;
   gap: clamp(16px, 2.2vw, 32px);
-  transform: translateY(-32px);
+  transform: translateY(-2px);
 }
 
 .stone-link {
@@ -125,14 +125,14 @@ summary {
 
 .site-content {
   position: fixed;
-  top: 290px;
+  top: 230px;
   right: 0;
   bottom: 0;
   left: 0;
   width: 100%;
   margin: 0;
   overflow-y: auto;
-  padding: 52px clamp(200px, 17vw, 320px) 140px;
+  padding: 24px clamp(200px, 17vw, 320px) 140px;
   overscroll-behavior: contain;
 }
 
@@ -473,13 +473,13 @@ summary {
 
 @media (max-width: 1050px) {
   .stone-menu {
-    height: 225px;
+    height: 180px;
   }
 
   .stone-menu__nav {
     width: min(560px, calc(100% - 80px));
     gap: 12px;
-    transform: translateY(-24px);
+    transform: translateY(-2px);
   }
 
   .stone-link {
@@ -494,20 +494,20 @@ summary {
   }
 
   .site-content {
-    top: 225px;
-    padding: 42px 96px 110px;
+    top: 180px;
+    padding: 22px 96px 110px;
   }
 }
 
 @media (max-width: 680px) {
   .stone-menu {
-    height: 148px;
+    height: 112px;
   }
 
   .stone-menu__nav {
     width: calc(100% - 16px);
     gap: 3px;
-    transform: translateY(-14px);
+    transform: translateY(4px);
   }
 
   .stone-link {
@@ -522,8 +522,8 @@ summary {
   }
 
   .site-content {
-    top: 148px;
-    padding: 26px 32px 80px;
+    top: 112px;
+    padding: 16px 32px 80px;
   }
 
   .about-page {
