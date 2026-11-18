@@ -99,12 +99,12 @@ summary {
 
 .stone-link span {
   position: absolute;
-  top: 54%;
+  top: 57%;
   left: 50%;
   display: grid;
-  width: 96px;
-  min-height: 29px;
-  padding: 2px 8px;
+  width: 86px;
+  min-height: 25px;
+  padding: 1px 5px;
   place-items: center;
   background: var(--nav-idle);
   color: var(--ink);
@@ -481,8 +481,9 @@ summary {
   }
 
   .stone-link span {
-    width: 84px;
-    min-height: 25px;
+    width: 76px;
+    min-height: 22px;
+    padding: 1px 4px;
     font-size: 14px;
   }
 
@@ -508,9 +509,9 @@ summary {
   }
 
   .stone-link span {
-    width: min(64px, 94%);
-    min-height: 21px;
-    padding: 2px 3px;
+    width: min(58px, 94%);
+    min-height: 18px;
+    padding: 1px 2px;
     font-size: 12px;
   }
 

@@ -63,8 +63,6 @@ nav_key: projects
         <p class="project-abstract">Analysis of post-level embeddings reveals high overall semantic similarity across targets, with distinctive topical profiles. Blame directed at AI agents aligns closest to society-level blaming across topical anchors, while moral action anchors reveal structures unique to AI blaming. These findings suggest that AI is recognized as blameworthy, but the tone and style of its linguistic description are largely shared with other actors. We highlight the implications of these patterns in the public sensemaking of responsible AI design and governance.</p>
         <p class="project-resources">
           <a href="https://doi.org/10.1145/3772363.3798646" target="_blank" rel="noopener noreferrer">DOI</a>
-          <a href="{{ '/assets/papers/chiea26_Lee.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Paper</a>
-          <a href="{{ '/assets/papers/chiea26_Lee_Supplementary.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Supplementary</a>
         </p>
       </div>
     </details>
