@@ -10,7 +10,7 @@ nav_key: about
 
   <p>I’m a master’s student studying the relationship between technology and society. These days I have been pondering the social production and inculcation of  technological inevitability, and how that has been impacting the way we imagine our own futures. Is our imaginative autonomy becoming obsolete? Or are there silver linings awaiting to be discovered? </p>
 
-  <p>Before turning to this line of research, I worked in the humanitarian and international development field, where I was driven by a desire to make underconceptualized problems in our society more visible. That experience has led me to see computational methods not simply as technical tools, but as a powerful interpretive language through which complex social problems are made legible to wider publics.</p>
+  <p>Before turning to this line of research, I worked in international development, where I was driven by a desire to make underconceptualized problems in our society more visible. That experience has led me to see computational methods not simply as technical tools, but as a powerful interpretive language through which complex social problems are made legible to wider publics.</p>
 
   <p>What fundamentally connects my past to the present is my interest in the power of discourse: how language connects my world and yours, and in doing so, creates new possibilities for coevolving with technology. We each inhabit different corners of reality, but through language—whether spoken, written, embodied, or encoded—we can allow those realities to unfold through shared interpretation.</p>
 
