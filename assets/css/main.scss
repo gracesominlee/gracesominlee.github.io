@@ -69,6 +69,7 @@ summary {
   height: 100%;
   margin: 0 auto;
   gap: clamp(16px, 2.2vw, 32px);
+  transform: translateY(-24px);
 }
 
 .stone-link {
@@ -97,7 +98,7 @@ summary {
 
 .stone-link span {
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 50%;
   display: grid;
   width: 96px;
@@ -471,6 +472,7 @@ summary {
   .stone-menu__nav {
     width: min(560px, calc(100% - 80px));
     gap: 12px;
+    transform: translateY(-18px);
   }
 
   .stone-link {
@@ -497,6 +499,7 @@ summary {
   .stone-menu__nav {
     width: calc(100% - 16px);
     gap: 3px;
+    transform: translateY(-10px);
   }
 
   .stone-link {
