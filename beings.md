@@ -6,6 +6,7 @@ nav_key: beings
 ---
 
 <section class="beings-network" aria-label="Interactive floating network of beings that have contributed to my creations">
+  <p class="beings-intro">Click a being to pause it and read its story.</p>
   <div class="beings-stage" data-beings-stage></div>
 </section>
 
