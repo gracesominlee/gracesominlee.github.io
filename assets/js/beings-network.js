@@ -26,7 +26,7 @@
   const nodes = beings.map((being, index) => {
     const button = document.createElement("button");
     const img = document.createElement("img");
-    const size = 42 + (index % 3) * 6;
+    const size = 84 + (index % 3) * 14;
 
     button.type = "button";
     button.className = "being-node";
@@ -62,8 +62,8 @@
     const node = {
       el: button,
       being,
-      x: 24 + Math.random() * Math.max(stageWidth - 120, 1),
-      y: 24 + Math.random() * Math.max(stageHeight - 120, 1),
+      x: 24 + Math.random() * Math.max(stageWidth - size - 48, 1),
+      y: 24 + Math.random() * Math.max(stageHeight - size - 48, 1),
       vx: (Math.random() - 0.5) * 0.45,
       vy: (Math.random() - 0.5) * 0.45,
       size,
@@ -145,10 +145,11 @@
 
   function animate() {
     const rect = stage.getBoundingClientRect();
-    const maxX = Math.max(rect.width - 88, 1);
-    const maxY = Math.max(rect.height - 88, 1);
 
     nodes.forEach((node, index) => {
+      const maxX = Math.max(rect.width - node.size - 8, 1);
+      const maxY = Math.max(rect.height - node.size - 8, 1);
+
       if (!node.isPaused) {
         node.x += node.vx;
         node.y += node.vy;

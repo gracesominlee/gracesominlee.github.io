@@ -2,15 +2,10 @@
 layout: default
 title: Beings
 permalink: /beings/
+nav_key: beings
 ---
 
-<section class="beings-intro">
-  <p>
-    A floating network of all beings that have contributed to my creations. Click on them to see their stories. 
-  </p>
-</section>
-
-<section class="beings-network" aria-label="Interactive beings network">
+<section class="beings-network" aria-label="Interactive floating network of beings that have contributed to my creations">
   <div class="beings-stage" data-beings-stage></div>
 </section>
 
