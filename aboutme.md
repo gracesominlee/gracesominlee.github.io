@@ -8,11 +8,11 @@ nav_key: about
 <article class="about-page">
   <h1>Hi there! I’m Grace, or 소민.</h1>
 
-  <p>I’m a master’s student studying the relationship between technology and society. These days I have been pondering the social production and inculcation of  technological inevitability, and how that has been impacting the way we imagine our own futures. Is our imaginative autonomy becoming obsolete? Or are there silver linings awaiting to be discovered? </p>
+  <p>I’m a master’s student at KAIST studying the relationship between technology and society. These days I have been pondering the social production and inculcation of technological inevitability, and how that has been impacting the way we imagine our own futures. Is our imaginative autonomy becoming obsolete? Or are there openings waiting to be discovered? </p>
 
-  <p>Before turning to this line of research, I worked in international development, where I was driven by a desire to make underconceptualized problems in our society more visible. That experience has led me to see computational methods not simply as technical tools, but as a powerful interpretive language through which complex social problems are made legible to wider publics.</p>
+  <p>My current work looks for those openings in the multiplicity of AI contestations. By “AI” I mean the larger sociotechnical system that enables its operation: data centers, energy infrastructures, public policy, and leadership. These contestations unfold at different levels, and I wish to highlight how individual agency shines through such processes, and more practically, how decision-making systems could better accommodate it.</p>
 
-  <p>What fundamentally connects my past to the present is my interest in the power of discourse: how language connects my world and yours, and in doing so, creates new possibilities for coevolving with technology. We each inhabit different corners of reality, but through language—whether spoken, written, embodied, or encoded—we can allow those realities to unfold through shared interpretation.</p>
+  <p>Before turning to this line of research, I worked in international development, focusing on technology-facilitated gender-based violence and data governance for femicide documentation. Seeing how data infrastructures shaped whose harms were counted is where my inquiries into larger sociotechnical systems began, and I continue to ask who gets a say in the futures these systems are generating.</p>
 
   <section class="about-section" aria-labelledby="education-heading">
     <h2 id="education-heading">Education</h2>
