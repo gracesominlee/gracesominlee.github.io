@@ -26,7 +26,7 @@
   const nodes = beings.map((being, index) => {
     const button = document.createElement("button");
     const img = document.createElement("img");
-    const size = 84 + (index % 3) * 14;
+    const size = 48 + (index % 3) * 8;
 
     button.type = "button";
     button.className = "being-node";
