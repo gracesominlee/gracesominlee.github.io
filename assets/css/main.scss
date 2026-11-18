@@ -57,7 +57,7 @@ summary {
   z-index: 100;
   top: 0;
   width: 100%;
-  height: 310px;
+  height: 290px;
   background: var(--page-bg);
 }
 
@@ -65,17 +65,17 @@ summary {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: center;
-  width: min(760px, calc(100% - 120px));
+  width: min(680px, calc(100% - 140px));
   height: 100%;
   margin: 0 auto;
-  gap: clamp(18px, 2.5vw, 38px);
+  gap: clamp(16px, 2.2vw, 32px);
 }
 
 .stone-link {
   position: relative;
   display: grid;
   width: 100%;
-  height: 136px;
+  height: 120px;
   place-items: center;
   color: var(--ink);
   text-decoration: none;
@@ -123,27 +123,27 @@ summary {
 
 .site-content {
   position: fixed;
-  top: 310px;
+  top: 290px;
   right: 0;
   bottom: 0;
   left: 0;
   width: 100%;
   margin: 0;
   overflow-y: auto;
-  padding: 64px clamp(160px, 13vw, 240px) 140px;
+  padding: 64px clamp(200px, 17vw, 320px) 140px;
   overscroll-behavior: contain;
 }
 
 /* About */
 .about-page {
   max-width: 1360px;
-  font-size: clamp(27px, 2.35vw, 40px);
+  font-size: clamp(20px, calc(2.35vw - 7px), 33px);
   line-height: 1.45;
 }
 
 .about-page h1 {
   margin: 0 0 52px;
-  font-size: clamp(44px, 4vw, 66px);
+  font-size: clamp(37px, calc(4vw - 7px), 59px);
   font-weight: 400;
   line-height: 1.1;
 }
@@ -199,7 +199,7 @@ summary {
 
 .project-year h1 {
   margin: 0 0 42px;
-  font-size: clamp(34px, 3vw, 48px);
+  font-size: clamp(27px, calc(3vw - 7px), 41px);
   font-weight: 400;
   line-height: 1;
 }
@@ -232,7 +232,7 @@ summary {
 }
 
 .project-name {
-  font-size: clamp(28px, 2.55vw, 43px);
+  font-size: clamp(21px, calc(2.55vw - 7px), 36px);
   line-height: 1.2;
 }
 
@@ -266,7 +266,7 @@ summary {
 
 .project-body {
   margin-top: 36px;
-  font-size: clamp(23px, 2vw, 34px);
+  font-size: clamp(16px, calc(2vw - 7px), 27px);
   line-height: 1.43;
 }
 
@@ -293,7 +293,7 @@ summary {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: clamp(28px, 2.5vw, 42px);
+  font-size: clamp(21px, calc(2.5vw - 7px), 35px);
 }
 
 .writings-page li {
@@ -356,7 +356,7 @@ summary {
   background: var(--page-bg);
   box-shadow: none;
   color: var(--ink);
-  font-size: 19px;
+  font-size: 12px;
 }
 
 .being-card::before {
@@ -414,13 +414,13 @@ summary {
 
 .being-card h2 {
   margin: 0;
-  font-size: 28px;
+  font-size: 21px;
   line-height: 1.1;
 }
 
 .being-card h3 {
   margin: 20px 0 6px;
-  font-size: 21px;
+  font-size: 14px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
@@ -444,16 +444,16 @@ summary {
 
 @media (max-width: 1050px) {
   .stone-menu {
-    height: 245px;
+    height: 225px;
   }
 
   .stone-menu__nav {
-    width: min(620px, calc(100% - 64px));
+    width: min(560px, calc(100% - 80px));
     gap: 12px;
   }
 
   .stone-link {
-    height: 108px;
+    height: 96px;
   }
 
   .stone-link span {
@@ -463,14 +463,14 @@ summary {
   }
 
   .site-content {
-    top: 245px;
-    padding: 52px 72px 110px;
+    top: 225px;
+    padding: 52px 96px 110px;
   }
 }
 
 @media (max-width: 680px) {
   .stone-menu {
-    height: 160px;
+    height: 148px;
   }
 
   .stone-menu__nav {
@@ -479,7 +479,7 @@ summary {
   }
 
   .stone-link {
-    height: 78px;
+    height: 70px;
   }
 
   .stone-link span {
@@ -490,18 +490,18 @@ summary {
   }
 
   .site-content {
-    top: 160px;
-    padding: 32px 24px 80px;
+    top: 148px;
+    padding: 32px 32px 80px;
   }
 
   .about-page {
-    font-size: 23px;
+    font-size: 16px;
     line-height: 1.42;
   }
 
   .about-page h1 {
     margin-bottom: 34px;
-    font-size: 39px;
+    font-size: 32px;
   }
 
   .about-page p {
@@ -518,7 +518,7 @@ summary {
 
   .project-year h1 {
     margin-bottom: 34px;
-    font-size: 32px;
+    font-size: 25px;
   }
 
   .project-entry {
@@ -526,7 +526,7 @@ summary {
   }
 
   .project-name {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .project-toggle {
@@ -541,7 +541,7 @@ summary {
 
   .project-body {
     margin-top: 26px;
-    font-size: 21px;
+    font-size: 14px;
   }
 
   .writings-page {
@@ -558,7 +558,7 @@ summary {
 
   .being-card {
     padding: 18px;
-    font-size: 17px;
+    font-size: 12px;
   }
 
   .being-card-heading img {
