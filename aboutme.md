@@ -8,7 +8,7 @@ nav_key: about
 <article class="about-page">
   <h1>Hi there! I’m Grace, or 소민.</h1>
 
-  <p>I’m a Master’s student in Computational Social Science at <a href="https://kaist.ac.kr/en/">KAIST</a>, where I work with <a href="https://tds-lab.vercel.app/">The Society Lab</a>. I’m interested in how people collectively produce new boundaries between humans and nonhumans. Recently, I’ve been studying the <span class="text-highlight">sociotechnical imaginaries of AI</span> that emerge in everyday public discourse, and how these imaginaries lay the groundwork for rethinking human–AI boundaries.</p>
+  <p>I’m a master’s student studying the relationship between technology and society. These days I have been pondering the social production and inculcation of  technological inevitability, and how that has been impacting the way we imagine our own futures. Is our imaginative autonomy becoming obsolete? Or are there silver linings awaiting to be discovered? </p>
 
   <p>Before turning to this line of research, I worked in the humanitarian and international development field, where I was driven by a desire to make underconceptualized problems in our society more visible. That experience has led me to see computational methods not simply as technical tools, but as a powerful interpretive language through which complex social problems are made legible to wider publics.</p>
 
