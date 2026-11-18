@@ -57,7 +57,7 @@ summary {
   z-index: 100;
   top: 0;
   width: 100%;
-  height: 410px;
+  height: 310px;
   background: var(--page-bg);
 }
 
@@ -65,17 +65,17 @@ summary {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: center;
-  width: min(1000px, calc(100% - 80px));
+  width: min(760px, calc(100% - 120px));
   height: 100%;
   margin: 0 auto;
-  gap: clamp(20px, 3vw, 50px);
+  gap: clamp(18px, 2.5vw, 38px);
 }
 
 .stone-link {
   position: relative;
   display: grid;
   width: 100%;
-  height: 190px;
+  height: 136px;
   place-items: center;
   color: var(--ink);
   text-decoration: none;
@@ -100,13 +100,13 @@ summary {
   top: 50%;
   left: 50%;
   display: grid;
-  width: 128px;
-  min-height: 36px;
+  width: 96px;
+  min-height: 29px;
   padding: 2px 8px;
   place-items: center;
   background: var(--nav-idle);
   color: var(--ink);
-  font-size: 22px;
+  font-size: 17px;
   line-height: 1;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -123,14 +123,14 @@ summary {
 
 .site-content {
   position: fixed;
-  top: 410px;
+  top: 310px;
   right: 0;
   bottom: 0;
   left: 0;
   width: 100%;
   margin: 0;
   overflow-y: auto;
-  padding: 72px max(120px, calc((100vw - 1400px) / 2)) 140px;
+  padding: 64px clamp(160px, 13vw, 240px) 140px;
   overscroll-behavior: contain;
 }
 
@@ -444,33 +444,33 @@ summary {
 
 @media (max-width: 1050px) {
   .stone-menu {
-    height: 320px;
+    height: 245px;
   }
 
   .stone-menu__nav {
-    width: min(900px, calc(100% - 48px));
-    gap: 18px;
+    width: min(620px, calc(100% - 64px));
+    gap: 12px;
   }
 
   .stone-link {
-    height: 158px;
+    height: 108px;
   }
 
   .stone-link span {
-    width: 104px;
-    min-height: 31px;
-    font-size: 18px;
+    width: 84px;
+    min-height: 25px;
+    font-size: 14px;
   }
 
   .site-content {
-    top: 320px;
-    padding: 52px 32px 120px;
+    top: 245px;
+    padding: 52px 72px 110px;
   }
 }
 
 @media (max-width: 680px) {
   .stone-menu {
-    height: 198px;
+    height: 160px;
   }
 
   .stone-menu__nav {
@@ -479,19 +479,19 @@ summary {
   }
 
   .stone-link {
-    height: 110px;
+    height: 78px;
   }
 
   .stone-link span {
-    width: min(76px, 92%);
-    min-height: 25px;
+    width: min(64px, 94%);
+    min-height: 21px;
     padding: 2px 3px;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .site-content {
-    top: 198px;
-    padding: 34px 18px 90px;
+    top: 160px;
+    padding: 32px 24px 80px;
   }
 
   .about-page {
