@@ -429,10 +429,11 @@ summary {
 
 .being-card-label {
   display: inline-block;
-  margin: 0 0 6px;
-  padding: 2px 8px;
+  margin: 0 0 4px;
+  padding: 1px 5px;
   background: var(--nav-idle);
   font-size: 12px;
+  line-height: 1.1;
 }
 
 .being-card h2,
@@ -449,7 +450,7 @@ summary {
 
 .being-card h3 {
   margin: 20px 0 6px;
-  font-size: 11px;
+  font-size: 15px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
@@ -457,10 +458,17 @@ summary {
 .being-card ul {
   margin: 0;
   padding-left: 1.1em;
+  font-size: 14px;
+  line-height: 1.35;
 }
 
 .being-card p {
   margin: 0;
+}
+
+.being-card > p {
+  font-size: 14px;
+  line-height: 1.35;
 }
 
 .beings-empty {
