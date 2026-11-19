@@ -12,7 +12,7 @@ nav_key: about
 
   <p>My current work looks for those openings in the multiplicity of AI-related contestations, from data centers and energy infrastructures to public policy and leadership. I wish to highlight how individual agency shines through them, and how decision-making systems could better accommodate it.</p>
 
-  <p>Before turning to this line of research, I worked in international development, focusing on technology-facilitated gender-based violence and data governance for femicide documentation. Seeing how data infrastructures reduce experiences to numbers is where my inquiries into larger sociotechnical systems began, and I continue to ask who gets a say, and what gets counted, in the futures these systems are generating.</p>
+  <p>Before turning to this line of research, I worked in international development, focusing on technology-facilitated gender-based violence and data governance for femicide documentation. Seeing how data infrastructures reduce experiences to numbers is where my inquiries into larger sociotechnical systems began, and I continue to ask who gets a say, and what gets represented, in the futures these systems are generating.</p>
 
   <section class="about-section" aria-labelledby="education-heading">
     <h2 id="education-heading">Education</h2>
