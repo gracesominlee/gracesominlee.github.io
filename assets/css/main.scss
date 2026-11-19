@@ -479,6 +479,13 @@ summary {
   place-items: center;
 }
 
+.site-footer {
+  margin-top: clamp(80px, 10vh, 140px);
+  color: var(--line);
+  font-size: 14px;
+  text-align: center;
+}
+
 @media (max-width: 1050px) {
   .stone-menu {
     height: 180px;
@@ -610,6 +617,10 @@ summary {
     width: 82px;
     height: 82px;
     flex-basis: 82px;
+  }
+
+  .site-footer {
+    margin-top: 64px;
   }
 }
 
