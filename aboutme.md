@@ -34,6 +34,6 @@ nav_key: about
     <a href="mailto:gracesomin@kaist.ac.kr">Email</a>
     <a href="https://github.com/gracesominlee" target="_blank" rel="noopener noreferrer">GitHub</a>
     <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a href="{{ '/assets/cv/CV_June2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
+    <button class="contact-link--disabled" type="button" disabled title="CV temporarily unavailable">CV</button>
   </nav>
 </article>
