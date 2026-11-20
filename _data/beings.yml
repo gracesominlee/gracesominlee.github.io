@@ -1,15 +1,6 @@
 # Edit this file to add, remove, or change beings on /beings/.
 # Put new images in assets/img/beings/ and reference them with /assets/img/beings/file-name.jpg.
 
-- id: butterfly-one
-  name: Stevie the Butterfly
-  kind: artifact
-  image: /assets/img/butterfly1.PNG
-  features:
-    - winged
-    - site companion
-  story: This is a starter being using an existing site image. Was drawn in 2023 by the site owner. 
-
 - id: tapir
   name: Tapir
   kind: animal
