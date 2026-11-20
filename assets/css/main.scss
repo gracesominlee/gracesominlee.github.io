@@ -8,6 +8,10 @@
   --nav-active: #b174af;
   --expand: #a45fa2;
   --highlight: #f4ffaa;
+  --category-hci: #ff8a00;
+  --category-sts: #acdfff;
+  --category-policy: #ffb5cc;
+  --category-planning: #879b60;
   --ink: #000000;
   --line: #686868;
 }
@@ -227,6 +231,10 @@ summary {
   background: var(--line);
 }
 
+.project-year + .project-year {
+  margin-top: 96px;
+}
+
 .project-entry {
   margin: 0 0 56px;
 }
@@ -261,11 +269,41 @@ summary {
   vertical-align: 0.12em;
 }
 
+.project-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.project-category {
+  display: inline-block;
+  padding: 0;
+  font-size: clamp(12px, calc(1.7vw - 6px), 22px);
+  line-height: 1.2;
+}
+
+.project-category--hci {
+  color: var(--category-hci);
+}
+
+.project-category--sts {
+  color: var(--category-sts);
+}
+
+.project-category--policy {
+  color: var(--category-policy);
+}
+
+.project-category--planning {
+  color: var(--category-planning);
+}
+
 .project-toggle {
   display: block;
   margin-top: 4px;
   color: var(--expand);
-  font-size: clamp(18px, calc(2.35vw - 8px), 31px);
+  font-size: clamp(13px, calc(2.35vw - 13px), 26px);
   line-height: 1.1;
 }
 
@@ -580,6 +618,10 @@ summary {
     font-size: 22px;
   }
 
+  .project-year + .project-year {
+    margin-top: 72px;
+  }
+
   .project-entry {
     margin-bottom: 44px;
   }
@@ -589,13 +631,18 @@ summary {
   }
 
   .project-toggle {
-    font-size: 16px;
+    font-size: 11px;
   }
 
   .project-tag {
     margin-left: 7px;
     padding: 1px 8px;
     font-size: 14px;
+  }
+
+  .project-category {
+    padding: 0;
+    font-size: 11px;
   }
 
   .project-body {
