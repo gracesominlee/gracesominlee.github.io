@@ -276,11 +276,16 @@ summary {
   margin-top: 8px;
 }
 
-.project-category {
+.project-category,
+.project-coauthors {
   display: inline-block;
   padding: 0;
   font-size: clamp(12px, calc(1.7vw - 6px), 22px);
   line-height: 1.2;
+}
+
+.project-coauthors {
+  color: var(--ink);
 }
 
 .project-category--hci {
@@ -640,7 +645,8 @@ summary {
     font-size: 14px;
   }
 
-  .project-category {
+  .project-category,
+  .project-coauthors {
     padding: 0;
     font-size: 11px;
   }

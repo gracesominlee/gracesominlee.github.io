@@ -13,9 +13,9 @@ nav_key: projects
       <summary>
         <span class="project-name">◌ Echoes and Fractures of Justificatory Determinism in Vernacular AI Discourse</span>
         <span class="project-tag">4S 2026</span>
-        <span class="project-categories" aria-label="Project categories">
+        <span class="project-categories" aria-label="Project collaborators and categories">
+          <span class="project-coauthors">With June Jeon</span>
           <span class="project-category project-category--sts">STS</span>
-          <span class="project-category project-category--policy">Policy</span>
         </span>
         <span class="project-toggle project-toggle--open">▷ expand</span>
         <span class="project-toggle project-toggle--closed">▽ expanded</span>
